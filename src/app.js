@@ -9,7 +9,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1 onClick={this.handleTitleClick}>Adopt Me!</h1>
+				<h1>Adopt Me!</h1>
 				<Pet name="Minato" animal="cat" color="Orange" />
 				<Pet name="Minerva" animal="cat" color="Brown" />
 				<Pet name="Goku" animal="cat" color="Black and White" />
