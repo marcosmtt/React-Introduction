@@ -1,11 +1,11 @@
 {
-	"name": "reactTuto",
+	"name": "React-Introduction",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
 		"format": "prettier \"src/**/*.{js,jsx,css,json}\" ",
-		"lint": "eslint \"**/*.{js,jsx}\"",
+		"lint": "eslint \"src/**/*.{js,jsx}\"",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"dev": "parcel src/index.html"
 	},
@@ -24,6 +24,7 @@
 		"prettier": "^1.16.4"
 	},
 	"dependencies": {
+		"petfinder-client": "0.0.3",
 		"react": "^16.8.3",
 		"react-dom": "^16.8.3"
 	}
