@@ -7,12 +7,13 @@ class Pet extends React.Component {
 		let photos = [];
 
 		if (media && media.photos && media.photos.photo) {
-			photos = media.photos.photo.filter((photo) => photo['@size'] == 'pn');
+			photos = media.photos.photo.filter((photo) => photo['@size'] === 'pn');
 		}
+
 		return (
 			<div className="pet">
 				<div className="image-container">
-					<img src={photos[0].value} alt={name} />
+					<img src={photos[0]} alt={name} />
 				</div>
 				<div className="info">
 					<h1>{name}</h1>
